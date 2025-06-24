@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Ashanti-s-Salon/static/css/main.75d98076.css",
+    "main.js": "/Ashanti-s-Salon/static/js/main.026559be.js",
+    "static/media/img5.JPG": "/Ashanti-s-Salon/static/media/img5.be40f884e57b18563f6c.JPG",
+    "static/media/img.12.JPG": "/Ashanti-s-Salon/static/media/img.12.bec41bdfcfc780cf04c3.JPG",
+    "static/media/img.6.JPG": "/Ashanti-s-Salon/static/media/img.6.9e97a90a40778e67651c.JPG",
+    "static/media/img.9.JPG": "/Ashanti-s-Salon/static/media/img.9.34909b3be42ee6262583.JPG",
+    "static/media/img.14.JPG": "/Ashanti-s-Salon/static/media/img.14.f389f1427fe518d0058a.JPG",
+    "static/media/img1.JPG": "/Ashanti-s-Salon/static/media/img1.86dde597fc1042e24e74.JPG",
+    "static/media/img3.JPG": "/Ashanti-s-Salon/static/media/img3.540f7d83a324a4279fe2.JPG",
+    "static/media/img.8.JPG": "/Ashanti-s-Salon/static/media/img.8.9356dd4bc644152a5d70.JPG",
+    "static/media/img4.JPG": "/Ashanti-s-Salon/static/media/img4.c06649a628b95450255c.JPG",
+    "static/media/img.7.JPG": "/Ashanti-s-Salon/static/media/img.7.af0c5a3eb27da89aac43.JPG",
+    "static/media/img2.JPG": "/Ashanti-s-Salon/static/media/img2.dc3e06c48e84b59ca546.JPG",
+    "static/media/img.10.JPG": "/Ashanti-s-Salon/static/media/img.10.3773d9c659ae61a12908.JPG",
+    "static/media/img.13.JPG": "/Ashanti-s-Salon/static/media/img.13.75752afdd96bf2bad246.JPG",
+    "static/media/img.11.JPG": "/Ashanti-s-Salon/static/media/img.11.20b4f0c43129568a70b1.JPG",
+    "index.html": "/Ashanti-s-Salon/index.html",
+    "main.75d98076.css.map": "/Ashanti-s-Salon/static/css/main.75d98076.css.map",
+    "main.026559be.js.map": "/Ashanti-s-Salon/static/js/main.026559be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75d98076.css",
+    "static/js/main.026559be.js"
+  ]
+}
