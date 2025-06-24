@@ -1,0 +1,265 @@
+/* Footer.css */
+.salon-footer {
+  background-color: #4a2d3b;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 0;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #332c39; /* Thin line separator */
+}
+
+.footer-brand {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-brand h2 {
+  font-size: 28px;
+  color: #f25c9d;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-brand p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.footer-columns {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.footer-column a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-column a:hover {
+  color: #f25c9d;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  color: #f25c9d;
+  font-size: 14px;
+}
+
+in the book appointment on the footer i want it to be pink and when there is a hiver it is still pink and a line shows, /* Footer.css */
+.salon-footer {
+  background-color: #4a2d3b;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 0;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #332c39; /* Thin line separator */
+}
+
+.footer-brand {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-brand h2 {
+  font-size: 28px;
+  color: #f25c9d;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-brand p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.footer-columns {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.footer-column a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-column a:hover {
+  color: #f25c9d;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  color: #f25c9d;
+  font-size: 14px;
+}
+
+.book-button {
+  display: inline-block;
+  background-color: transparent;
+  color:  #f25c9d;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-weight: 500;
+ transition: all 0.3s ease;
+  position: relative;
+}
+
+.book-button:hover {
+  background-color: #4a2d3b;
+   color: #f25c9d;
+}
+
+.book-button::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: 1px;
+  background-color: #f25c9d;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.book-button:hover::after {
+  transform: scaleX(1); /* Underline slides in on hover */
+}
+
+.footer-bottom {
+  background-color: #4a2d3b;
+  color: rgb(152, 148, 148);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-columns {
+    flex-direction: column;
+  }
+}
+
+.footer-bottom {
+  background-color: #4a2d3b;
+  color: rgb(152, 148, 148);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-columns {
+    flex-direction: column;
+  }
+}

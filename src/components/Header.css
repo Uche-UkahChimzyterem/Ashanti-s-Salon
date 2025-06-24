@@ -1,0 +1,148 @@
+/* Header.css - With Enhanced Hover Effects */
+.top-header {
+  background-color: #f25c9d;
+  color: white;
+  text-align: center;
+  padding: 18px 0;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 30px 12%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  gap: 50px;
+  min-height: 90px;
+}
+
+.brand-name {
+  font-size: 1.8rem;
+  color: #f25c9d;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.salon-text {
+  color: #666;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 0;
+  font-size: 1.1rem;
+  position: relative;
+  transition: all 0.3s ease;
+  
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -3px; /* Closer to text */
+  left: 0;
+  width: 0;
+  height: 3px; /* Thinner line */
+  background-color: #f25c9d;
+  transition: width 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* Navigation Links Hover Effect */
+.nav-links a:hover {
+  color: #f25c9d; /* Color change on hover */
+}
+
+.nav-links a:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #f25c9d; /* Pink underline */
+  animation: underline 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f25c9d;
+}
+.nav-links a:hover::before {
+  left: 0; /* Slides in from left to right */
+  height: 1px;
+}
+
+/* Book Now Button Hover Effect */
+.book-now-btn {
+  background-color: #f25c9d;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.book-now-btn:hover {
+  background-color: #e04d8e; /* Darker pink on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .main-header {
+    padding: 25px 8%;
+    gap: 30px;
+  }
+  
+  .brand-name {
+    font-size: 1.6rem;
+  }
+  
+  .nav-links {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    padding: 20px 5%;
+    gap: 20px;
+    min-height: auto;
+  }
+  
+  .brand-name {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 15px 25px;
+  }
+  
+  .nav-links a {
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+  
+  .book-now-btn {
+    padding: 10px 25px;
+    margin-top: 10px;
+  }
+}
