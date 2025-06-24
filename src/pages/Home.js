@@ -9,7 +9,6 @@ import './Home.css';
 import Contact from './Contact';
 import Welcome from './Welcome';
 import Booking from './Booking';
-import Review from './Review';
 import Policy from './Policy';
 import Services from './Services';
 import Gallery from './Gallery';
@@ -59,7 +58,6 @@ function Home() {
       
 <Gallery />
       <Policy />
-      <Review />
       <Booking />
       <Contact />
       

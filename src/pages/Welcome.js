@@ -1,46 +1,35 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaClock } from 'react-icons/fa';
 import './Welcome.css';
+import salonImage from '../assets/images/home/img15.png';
 
-function Welcome() {
+const Welcome = () => {
   return (
-    <section id="welcome" className="welcome-section">
-      <div className="welcome-container">
-        <h1>Welcome to Ashanti's Salon</h1>
-        <div className="welcome-text">
-          <p>
-            At Ashanti's Salon, we are dedicated to enhancing your natural beauty through our expert hair styling, 
-            braiding, makeup, and nail services. Located opposite Bethel Church, our salon provides a warm and 
-            welcoming environment where you can relax and be pampered.
-          </p>
-          <p>
-            Our team of skilled professionals specializes in a wide range of services including knotless braids, 
-            cornrows, goddess braids, makeup application, manicures, pedicures, and much more. We take pride in 
-            our attention to detail and commitment to customer satisfaction.
-          </p>
+    <div className="welcome-container">
+      <div className="welcome-content">
+        <div className="image-section">
+          <img src={salonImage} alt="Ashanti's Salon Interior" />
+          <div className="founder-info">
+            <p>Ashanti - Founder & Master Stylist</p>
+          </div>
         </div>
-        <div className="contact-info-container">
-          {/* Left-aligned Find Us section */}
-          <div className="contact-info-left">
-            <FaMapMarkerAlt className="info-icon-small" />
-            <div className="info-text-group">
-              <div className="info-label">Find Us</div>
-              <div className="info-value">Opposite Bethel Church</div>
-            </div>
-          </div>
-
-          {/* Right-aligned Open Hours section */}
-          <div className="contact-info-right">
-            <FaClock className="info-icon-small" />
-            <div className="info-text-group">
-              <div className="info-label">Open Hours</div>
-              <div className="info-value">7:00 AM - 7:00 PM Daily</div>
-            </div>
-          </div>
+        
+        <div className="text-content">
+          <h1 className="single-line-title">Welcome to Ashanti's Salon</h1>
+          <p>
+            Founded by Ashanti, our salon is a premier beauty destination dedicated to enhancing your natural beauty. 
+            With over a decade of experience in hair styling, braiding, and beauty treatments, 
+            Ashanti has created a warm and welcoming environment where clients can relax and transform.
+          </p>
+          
+          <p>
+            We take pride in our attention to detail and commitment to making every client feel 
+            beautiful and confident. Ashanti personally trains all staff to ensure the highest 
+            standards of service and creativity in every treatment we offer.
+          </p>
         </div>
       </div>
-    </section>
+    </div>
   );
-}
+};
 
 export default Welcome;

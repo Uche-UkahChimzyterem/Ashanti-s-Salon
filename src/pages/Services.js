@@ -24,7 +24,7 @@ const Services = () => {
               <li><FaCheck className="check-icon" /> Rough Cornrow</li>
               <li><FaCheck className="check-icon" /> All Types of Braids</li>
             </ul>
-            <button className="book-button">Book Now &gt;</button>
+         
           </div>
           
           {/* Hair Services */}
@@ -38,7 +38,7 @@ const Services = () => {
               <li><FaCheck className="check-icon" /> Frontal Installation</li>
               <li><FaCheck className="check-icon" /> Wig Fixing</li>
             </ul>
-            <button className="book-button">Book Now &gt;</button>
+          
           </div>
           
           {/* Beauty Services */}
@@ -51,103 +51,12 @@ const Services = () => {
               <li><FaCheck className="check-icon" /> Ear Piercing</li>
               <li><FaCheck className="check-icon" /> Lash Extensions</li>
             </ul>
-            <button className="book-button">Book Now &gt;</button>
+       
           </div>
         </div>
 
-        {/* Price List Section */}
-        <div className="pricing-container">
-          <h1 className="pricing-title">Our Price List</h1>
-          <p className="pricing-subtitle">
-            Transparent pricing for all our services. Prices may vary based on hair length, thickness, and complexity.
-          </p>
-
-          <div className="pricing-grid">
-            {/* Braiding Services Pricing */}
-            <div className="pricing-card">
-              <h2 className="pricing-category">Braiding Services</h2>
-              <ul className="pricing-list">
-                <li>
-                  <span className="service-name">Knotless Braids (Medium)</span>
-                  <span className="service-price">₵150–250</span>
-                </li>
-                <li>
-                  <span className="service-name">Goddess Braids</span>
-                  <span className="service-price">₵180–280</span>
-                </li>
-                <li>
-                  <span className="service-name">Cornrow Rasta</span>
-                  <span className="service-price">₵120–200</span>
-                </li>
-                <li>
-                  <span className="service-name">Rough Cornrow</span>
-                  <span className="service-price">₵100–180</span>
-                </li>
-                <li>
-                  <span className="service-name">Box Braids</span>
-                  <span className="service-price">₵150–250</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Hair Services Pricing */}
-            <div className="pricing-card">
-              <h2 className="pricing-category">Hair Services</h2>
-              <ul className="pricing-list">
-                <li>
-                  <span className="service-name">Hair Treatment</span>
-                  <span className="service-price">₵80–150</span>
-                </li>
-                <li>
-                  <span className="service-name">Hair Relaxing</span>
-                  <span className="service-price">₵100–180</span>
-                </li>
-                <li>
-                  <span className="service-name">Hair Dyeing</span>
-                  <span className="service-price">₵120–250</span>
-                </li>
-                <li>
-                  <span className="service-name">Wig Cap Creation</span>
-                  <span className="service-price">₵150–200</span>
-                </li>
-                <li>
-                  <span className="service-name">Frontal Installation</span>
-                  <span className="service-price">₵180–300</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Beauty Services Pricing */}
-            <div className="pricing-card">
-              <h2 className="pricing-category">Beauty Services</h2>
-              <ul className="pricing-list">
-                <li>
-                  <span className="service-name">Makeup Application</span>
-                  <span className="service-price">₵100–250</span>
-                </li>
-                <li>
-                  <span className="service-name">Manicure</span>
-                  <span className="service-price">₵50–80</span>
-                </li>
-                <li>
-                  <span className="service-name">Pedicure</span>
-                  <span className="service-price">₵60–100</span>
-                </li>
-                <li>
-                  <span className="service-name">Ear Piercing</span>
-                  <span className="service-price">₵30–50</span>
-                </li>
-                <li>
-                  <span className="service-name">Lash Extensions</span>
-                  <span className="service-price">₵80–150</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="book-cta">
-            <button className="book-button">Book a Service</button>
-          </div>
+        <div className="book-cta">
+          <button className="book-button">Book a Service</button>
         </div>
       </div>
     </section>
