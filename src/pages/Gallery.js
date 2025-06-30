@@ -49,7 +49,7 @@ const Gallery = () => {
         
         <div className="social-cta">
           <a 
-            href="https://www.tiktok.com/@yourusername" 
+            href="https://www.tiktok.com/@ashantisalon24?_t=ZM-8xcgbfmOqO6&_r=1" 
             target="_blank" 
             rel="noopener noreferrer"
             className="tiktok-link"

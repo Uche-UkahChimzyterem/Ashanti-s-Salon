@@ -1,6 +1,6 @@
-// Footer.js
 import React from 'react';
 import { FaPhone, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -18,11 +18,11 @@ const Footer = () => {
               <h3>Quick Links</h3>
               <div className="underline"></div>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Policies</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/services">Services</Link></li>
+                <li><Link to="/Gallery">Gallery</Link></li>
+                <li><Link to="/Policy">Policies</Link></li>
+                <li><Link to="/Contact">Contact</Link></li>
               </ul>
             </div>
 
@@ -30,11 +30,11 @@ const Footer = () => {
               <h3>Services</h3>
               <div className="underline"></div>
               <ul>
-                <li><a href="#">Braiding Services</a></li>
-                <li><a href="#">Hair Services</a></li>
-                <li><a href="#">Beauty Services</a></li>
-                <li><a href="#">Makeup</a></li>
-                <li><a href="#">Nail Care</a></li>
+                <li><Link to="/services#braiding">Braiding Services</Link></li>
+                <li><Link to="/services#hair">Hair Services</Link></li>
+                <li><Link to="/services#beauty">Beauty Services</Link></li>
+                <li><Link to="/services#makeup">Makeup</Link></li>
+                <li><Link to="/services#nails">Nail Care</Link></li>
               </ul>
             </div>
 
@@ -47,14 +47,14 @@ const Footer = () => {
                 <li><FaPhone className="icon" /> 059 894 818</li>
                 <li><FaClock className="icon" /> 7:00 AM - 7:00 PM</li>
               </ul>
-              <a href="#" className="book-button">Book an Appointment</a>
+              <Link to="/booking" className="book-button">Book an Appointment</Link>
             </div>
           </div>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© 2023 Ashanti's Salon. All rights reserved.</p>
+        <p>© 2025 Ashanti's Salon. All rights reserved.</p>
       </div>
     </footer>
   );

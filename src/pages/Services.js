@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // ✅ Added import
 import { FaCheck } from 'react-icons/fa';
 import './Services.css';
 
@@ -10,9 +11,9 @@ const Services = () => {
         <p className="services-subtitle">
           Discover our comprehensive range of beauty services designed to enhance your natural beauty and boost your confidence.
         </p>
-        
+
         <div className="divider"></div>
-        
+
         <div className="services-grid">
           {/* Braiding Services */}
           <div className="service-card">
@@ -24,9 +25,8 @@ const Services = () => {
               <li><FaCheck className="check-icon" /> Rough Cornrow</li>
               <li><FaCheck className="check-icon" /> All Types of Braids</li>
             </ul>
-         
           </div>
-          
+
           {/* Hair Services */}
           <div className="service-card">
             <h2 className="service-category">Hair Services</h2>
@@ -38,9 +38,8 @@ const Services = () => {
               <li><FaCheck className="check-icon" /> Frontal Installation</li>
               <li><FaCheck className="check-icon" /> Wig Fixing</li>
             </ul>
-          
           </div>
-          
+
           {/* Beauty Services */}
           <div className="service-card">
             <h2 className="service-category">Beauty Services</h2>
@@ -51,12 +50,12 @@ const Services = () => {
               <li><FaCheck className="check-icon" /> Ear Piercing</li>
               <li><FaCheck className="check-icon" /> Lash Extensions</li>
             </ul>
-       
           </div>
         </div>
 
+        {/* CTA Button */}
         <div className="book-cta">
-          <button className="book-button">Book a Service</button>
+          <Link to="/booking" className="book-button">Book a Service</Link>
         </div>
       </div>
     </section>

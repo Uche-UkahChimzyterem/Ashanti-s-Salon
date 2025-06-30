@@ -14,12 +14,11 @@ export default function Header() {
         <nav className="nav-links">
           <Link to="/">Home</Link>
           <Link to="/services">Services</Link>
-          <Link to="/gallery">Gallery</Link>
-          <Link to="/team">Our Team</Link>
-          <Link to="/policies">Policies</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/Gallery">Gallery</Link>
+          <Link to="/Policy">Policies</Link>
+          <Link to="/Contact">Contact</Link>
         </nav>
-        <Link to="/book" className="book-now-btn">Book Now</Link>
+        <Link to="/Booking" className="book-now-btn">Book Now</Link>
       </div>
     </header>
   );

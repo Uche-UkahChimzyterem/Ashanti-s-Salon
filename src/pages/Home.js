@@ -43,8 +43,9 @@ function Home() {
             <p>treatments,and more.</p>
           </div>
           <div className='action-buttons'>
-            <Link to="/book" className="cta-button">Book Appointment</Link>
-            <a href="#welcome" className="services-button">Learn More</a>
+            <Link to="/Booking" className="cta-button">Book Appointment</Link>
+            <Link to="/Services" className="services-button">Our Services</Link>
+           
           </div>
         </div>
       </div>

@@ -91,7 +91,6 @@
   font-size: 14px;
 }
 
-in the book appointment on the footer i want it to be pink and when there is a hiver it is still pink and a line shows, /* Footer.css */
 .salon-footer {
   background-color: #4a2d3b;
   color: white;
@@ -198,7 +197,7 @@ in the book appointment on the footer i want it to be pink and when there is a h
 }
 
 .book-button:hover {
-  background-color: #4a2d3b;
+  background-color: transparent;
    color: #f25c9d;
 }
 
